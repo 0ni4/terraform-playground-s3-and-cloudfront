@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>CloudFrontテストページ</title>
+</head>
+<body>
+    <h1>CloudFront 配信テスト</h1>
+    <p>このページは CloudFront を通じて配信されています。</p>
+    <p>確認日時: <strong id="datetime"></strong></p>
+
+    <script>
+        document.getElementById("datetime").textContent = new Date().toLocaleString();
+    </script>
+</body>
+</html>
